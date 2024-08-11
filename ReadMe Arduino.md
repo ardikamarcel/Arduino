@@ -35,7 +35,7 @@ To run a specific project, ensure the correct components are connected according
 Contributions are welcome! Feel free to fork the repository and submit pull requests.
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the (LICENSE) file for details.
 
 ## Contact
 For any inquiries, please contact Ardi Kamarcel at (ardikamarcel@gmail.com).
