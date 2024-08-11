@@ -1,0 +1,47 @@
+const int pinRed = 9;
+const int pinBlue = 10;
+const int pinGreen= 11;
+
+void setup() {
+  pinMode(pinRed, OUTPUT);
+  pinMode(pinBlue, OUTPUT);
+  pinMode(pinGreen, OUTPUT);
+}
+
+void setRGB(int red, int green, int blue)
+ {
+    analogWrite(pinRed, red);
+  	analogWrite(pinBlue, blue);
+  	analogWrite(pinGreen, green);
+}
+ 
+void loop() {
+  int red = 0;
+  int green = 255;
+  int blue = 0;
+  
+  for (int i = 0; i <= 255; i++) {
+    red = i;
+	setRGB(red,green,blue);
+    delay(20);
+  } 
+  
+  for (int i = 0; i<= 255; i++){
+    green = 255 - i;
+    blue = i;
+    setRGB(red,green,blue);
+    delay(20);
+  }
+  
+    for (int i = 0; i<= 255; i++){
+    red = 255 - i;
+    green = i;
+    setRGB(red,green,blue);
+    delay(20);
+  }
+    for (int i = 0; i<= 255; i++){
+    blue = 255 - i;
+    setRGB(red,green,blue);
+    delay(20);
+  }
+}
