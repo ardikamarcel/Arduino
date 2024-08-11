@@ -1,0 +1,167 @@
+const int buzzer =5;
+void setup() {
+
+  pinMode(buzzer, OUTPUT);
+}
+void loop() {
+ G();
+ E();
+ delay(937.5);
+ FF();
+ G();
+ G();
+ delay(937.5);
+ E();
+ CC();
+ CC();
+ B();
+ CC();
+ A();
+ G();
+ delay(937.5);
+ E();
+ G();
+ FF();
+ E();
+ D();
+ C();
+ D();
+ delay(468.75);
+ delay(937.5);
+ G();
+ E();
+ delay(937.5);
+ FF();
+ G();
+ G();
+ delay(937.5);
+ E();
+ CC();
+ CC();
+ B();
+ CC();
+ A();
+ G();
+ delay(937.5);
+ E();
+ FF();
+ E();
+ D();
+ C(); 
+ delay(937.5);
+ delay(937.5);
+ C();
+ D();
+ delay(937.5);
+ C();
+ D();
+ delay(937.5);
+ E();
+ C();
+ G();
+ delay(937.5);
+ E();
+ CC();
+ A();
+ A();
+ G();
+ tone(buzzer,369.99); 
+ G();
+ delay(937.5);
+ delay(937.5);
+ G();
+ CC();
+ delay(937.5);
+ delay(937.5);
+ G();
+ tone(buzzer,587.33);
+ delay(937.5);
+ delay(937.5);
+ G();
+ tone(buzzer, 659.25);
+ tone(buzzer, 587.33); 
+ CC();
+ B();
+ CC();
+ delay(937.5);
+ B();
+ A();
+ G();
+ FF();
+ E();
+ D();
+ E();
+ delay(937.5);
+ delay(937.5);
+ delay(937.5);
+ D();
+ delay(937.5);
+ delay(937.5);
+ delay(937.5);
+ C();
+ delay(937.5);
+ delay(937.5);
+ delay(937.5);
+}
+void C() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,261);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void D() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,294);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void E() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,329);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void FF() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,349);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void G() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,392);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void A() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,440);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void B() 
+{
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,493);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void CC() {
+  digitalWrite(buzzer, HIGH);
+  tone(buzzer,523);
+  delay(937.5);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
+void off() {
+  digitalWrite(buzzer, LOW);
+  digitalWrite(buzzer,LOW);
+  delay(500);
+}
