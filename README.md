@@ -30,4 +30,4 @@ For any inquiries, please contact:
 - **Maintainer Name:** [Marcello Ardika Raharja]
 - **Email:** [ardikamarcel@gmail.com]
 
-Thank you for visiting the Python Project repository!
+Thank you for visiting the Arduino Project repository!
