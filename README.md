@@ -17,7 +17,7 @@ A basic traffic light simulation using LEDs to mimic the operation of a real tra
 - Arduino board (e.g., Uno, Mega)
 - Required components (e.g., LEDs, resistors, buzzer)
 
-**Note:** Copying, forking, and cloning this repository are strictly forbidden and not allowed and no contributions needed.
+**Note:** Copying, forking, and cloning this repository are strictly forbidden and not allowed.
 
 ## License
 
