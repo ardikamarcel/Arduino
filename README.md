@@ -17,17 +17,6 @@ A basic traffic light simulation using LEDs to mimic the operation of a real tra
 - Arduino board (e.g., Uno, Mega)
 - Required components (e.g., LEDs, resistors, buzzer)
 
-### Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/ardikamarcel/Arduino.git
-    ```
-2. Open the desired project in the Arduino IDE.
-
-3. Connect your Arduino board to your computer.
-
-4. Upload the code to the Arduino board.
-
 **Note:** Copying, forking, and cloning this repository are strictly forbidden and not allowed and no contributions needed.
 
 ## License
