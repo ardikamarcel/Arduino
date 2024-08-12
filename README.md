@@ -28,14 +28,17 @@ A basic traffic light simulation using LEDs to mimic the operation of a real tra
 
 4. Upload the code to the Arduino board.
 
-## Usage
-To run a specific project, ensure the correct components are connected according to the schematic, then upload the corresponding code from the Arduino IDE.
-
-## Contributing
-Contributions are welcome! Feel free to fork the repository and submit pull requests.
+**Note:** Copying, forking, and cloning this repository are strictly forbidden and not allowed and no contributions needed.
 
 ## License
-This project is licensed under the MIT License - see the (LICENSE) file for details.
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contact
-For any inquiries, please contact Marcello Ardika Raharja at (ardikamarcel@gmail.com).
+
+For any inquiries, please contact:
+
+- **Maintainer Name:** [Marcello Ardika Raharja]
+- **Email:** [ardikamarcel@gmail.com]
+
+Thank you for visiting the Python Project repository!
